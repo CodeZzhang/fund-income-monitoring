@@ -1,0 +1,13 @@
+﻿--- gh auth status ---
+--- gh api viewer ---
+--- git remote test ---
+git : fatal: unable to access 'https://github.com/': OpenSSL SSL_read: OpenSSL/
+3.5.7: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+所在位置 行:445 字符: 209
++ ... ote test ---'; $out += (git ls-remote https://github.com 2>&1 | Out-S ...
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: unable t...eading, errno 0 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+

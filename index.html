@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="轻量级个人基金收益监控看板，数据仅保存在本机浏览器">
+  <title>基金收益监控</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <div id="app">
+    <div class="boot-loading">
+      <div class="boot-spinner"></div>
+      <p>正在加载…</p>
+    </div>
+  </div>
+
+  <noscript>
+    <div class="noscript">请开启 JavaScript 后使用本应用。</div>
+  </noscript>
+
+  <script src="vendor/vue.global.prod.js"></script>
+  <script src="vendor/dexie.min.js"></script>
+  <script src="vendor/echarts.min.js"></script>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

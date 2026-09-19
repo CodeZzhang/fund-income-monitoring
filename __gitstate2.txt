@@ -1,0 +1,22 @@
+﻿--- .github tree ---
+
+FullName                                                                    
+--------                                                                    
+D:\work\coding\webProject\fund-income-monitoring\.github\workflows          
+D:\work\coding\webProject\fund-income-monitoring\.github\workflows\pages.yml
+
+
+
+--- .gitignore ---
+node_modules/
+.tmp/
+.DS_Store
+*.log
+
+--- .nojekyll ---
+--- git global config ---
+color.ui=true
+user.name=Zzhang
+user.email=er_erqiao@163.com
+safe.directory=*
+

@@ -1,0 +1,3 @@
+﻿--- gh path ---
+--- gh auth status verbose ---
+EXIT:

@@ -1,0 +1,4 @@
+﻿--- curl github ---
+ERR 操作超时。
+--- curl api.github.com ---
+HTTP 200

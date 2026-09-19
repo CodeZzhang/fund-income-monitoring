@@ -1,0 +1,47 @@
+﻿PWD: D:\work\coding\webProject\fund-income-monitoring
+---GIT STATUS---
+git : fatal: not a git repository (or any of the parent directories): .git
+所在位置 行:445 字符: 147
++ ... ation)"; $out += '---GIT STATUS---'; $out += (git status 2>&1 | Out-S ...
++                                                   ~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+---REMOTE---
+git : fatal: not a git repository (or any of the parent directories): .git
+所在位置 行:445 字符: 211
++ ... -String); $out += '---REMOTE---'; $out += (git remote -v 2>&1 | Out-S ...
++                                                ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+---BRANCH---
+git : fatal: not a git repository (or any of the parent directories): .git
+所在位置 行:445 字符: 278
++ ... ut += '---BRANCH---'; $out += (git branch --show-current 2>&1 | Out-S ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (fatal: not a gi...ectories): .git 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+---FILES---
+
+Name                
+----                
+.github             
+.workbuddy          
+assets              
+vendor              
+.gitignore          
+.nojekyll           
+index.html          
+README.md           
+个人基金收益监控 H5 应用prd.md
+
+
+
